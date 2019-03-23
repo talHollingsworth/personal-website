@@ -39,5 +39,13 @@
 }
 
 .omni-row-gradient {
-  background-color: red;
+  background: #906d7d;
+  background: linear-gradient(to right, #906d7d 0%,#faf9ee 99%);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #906d7d !important;
 }
