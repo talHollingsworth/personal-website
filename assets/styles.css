@@ -5,11 +5,11 @@ Error: Invalid CSS after "@import ": expected "{", was "url('https://un..."
 1: ---
 2: ---
 3: @import url('https://unpkg.com/primer/build/build.css');
-4: @import 'highlight-syntax';
-5: 
-6: 
-7: // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
-8: .github-component {
+4: 
+5: // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
+6: .github-component {
+7:   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+8: }
 
 Backtrace:
 styles.scss:3
@@ -41,4 +41,4 @@ C:/Ruby25-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url('https://un...\"\A         on line 3 of styles.scss\A \A 1: ---\A 2: ---\A 3: @import url('https://unpkg.com/primer/build/build.css');\A 4: @import 'highlight-syntax';\A 5: \A 6: \A 7: // If a user adds a custom font, this component will stop it from bleeding into GitHub components:\A 8: .github-component {"; }
+  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url('https://un...\"\A         on line 3 of styles.scss\A \A 1: ---\A 2: ---\A 3: @import url('https://unpkg.com/primer/build/build.css');\A 4: \A 5: // If a user adds a custom font, this component will stop it from bleeding into GitHub components:\A 6: .github-component {\A 7:   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;\A 8: }"; }
