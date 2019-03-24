@@ -7,9 +7,12 @@
   .omni-row-gradient .btn {
     background-color: unset;
     background-image: unset;
-    padding: 2px 20px 2px 20px; }
+    padding: 2px 20px 2px 20px;
+    text-shadow: unset;
+    color: #352326; }
     .omni-row-gradient .btn .octicon {
-      margin-right: 6px; }
+      margin-right: 6px;
+      fill: #352326; }
 
 h1, h2, h3, h4 {
   color: #906d7d; }
