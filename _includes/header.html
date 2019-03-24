@@ -17,7 +17,7 @@
 {% endif %}
 
 <!doctype html>
-<html class="height-full">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="description" content="{{ meta_description }}" />
@@ -49,7 +49,9 @@
     <meta name="revisit-after" content="7 days">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
     <link href="{{ "/assets/fxcm-styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+    <script src="{{ "/assets/site.js" | relative_url }}" ></script>
   </head>
+
   {% include omni-bar.html %}
 
   <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
