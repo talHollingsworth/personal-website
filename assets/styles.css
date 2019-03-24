@@ -6,7 +6,10 @@
   background: linear-gradient(to right, #906d7d 0%, #faf9ee 99%); }
   .omni-row-gradient .btn {
     background-color: unset;
-    background-image: unset; }
+    background-image: unset;
+    padding: 2px 20px 2px 20px; }
+    .omni-row-gradient .btn .octicon {
+      margin-right: 6px; }
 
 h1, h2, h3, h4 {
   color: #906d7d; }
