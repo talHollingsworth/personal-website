@@ -59,4 +59,7 @@ h1, h2, h3, h4 {
 .txt-caps {
   text-transform: uppercase !important; }
 
+ul.list-style-none > li:before {
+  content: none !important; }
+
 /*# sourceMappingURL=styles.css.map */
