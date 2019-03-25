@@ -87,11 +87,12 @@ h1, h2, h3, h4 {
 
 ul.list-style-none {
   & > li:before {
-    content: '&rsaquo;' !important;
+    content: none !important;
   }
 
   &.txt-15 > li,
   li {
     padding-left: 0 !important;
+    margin-left: 0 !important;
   }
 }
