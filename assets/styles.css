@@ -56,4 +56,7 @@ h1, h2, h3, h4 {
 .skill-set {
   margin-bottom: 20px; }
 
+.txt-caps {
+  text-transform: uppercase !important; }
+
 /*# sourceMappingURL=styles.css.map */
