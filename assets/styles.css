@@ -54,14 +54,15 @@ h1, h2, h3, h4 {
   background-color: #906d7d !important; }
 
 .skill-set {
-  margin-bottom: 20px;
-  min-height: 270px; }
+  margin-bottom: 20px; }
+  .skill-set > div {
+    min-height: 270px; }
 
 .txt-caps {
   text-transform: uppercase !important; }
 
 ul.list-style-none > li:before {
-  content: none !important; }
+  content: '&rsaquo;' !important; }
 ul.list-style-none.txt-15 > li,
 ul.list-style-none li {
   padding-left: 0 !important; }

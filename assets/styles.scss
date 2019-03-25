@@ -75,7 +75,10 @@ h1, h2, h3, h4 {
 
 .skill-set {
   margin-bottom: 20px;
-  min-height: 270px;
+
+  & > div {
+    min-height: 270px;
+  }
 }
 
 .txt-caps {
@@ -84,7 +87,7 @@ h1, h2, h3, h4 {
 
 ul.list-style-none {
   & > li:before {
-    content: none !important;
+    content: '&rsaquo;' !important;
   }
 
   &.txt-15 > li,
