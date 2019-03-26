@@ -106,3 +106,15 @@ ul.list-style-none {
     position: relative;
   }
 }
+
+@media screen and (min-width: 600px) {
+
+  .multi-ling {
+    a {
+      color: #faf9ee;
+      &:hover {
+        color: #6b4a74;
+      }
+    }
+  }
+}

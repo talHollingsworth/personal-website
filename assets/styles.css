@@ -75,4 +75,10 @@ ul.list-style-none li {
     top: 30px;
     position: relative; }
 
+@media screen and (min-width: 600px) {
+  .multi-ling a {
+    color: #faf9ee; }
+    .multi-ling a:hover {
+      color: #6b4a74; } }
+
 /*# sourceMappingURL=styles.css.map */
