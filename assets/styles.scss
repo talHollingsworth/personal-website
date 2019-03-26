@@ -118,6 +118,11 @@ ul.list-style-none {
   }
 }
 
+.ico-purple {
+  & svg {
+    fill: #6b4a74;
+  }
+}
 
 @media screen and (min-width: 600px) {
   .omni-row-gradient {

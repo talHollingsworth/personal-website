@@ -82,6 +82,9 @@ ul.list-style-none li {
     top: 30px;
     position: relative; }
 
+.ico-purple svg {
+  fill: #6b4a74; }
+
 @media screen and (min-width: 600px) {
   .omni-row-gradient.multi-ling {
     background: linear-gradient(to right, #faf9ee 0%, #906d7d 100%); } }
