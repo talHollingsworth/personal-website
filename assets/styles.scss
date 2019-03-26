@@ -109,12 +109,7 @@ ul.list-style-none {
 
 @media screen and (min-width: 600px) {
 
-  .multi-ling {
-    a {
-      color: #faf9ee;
-      &:hover {
-        color: #6b4a74;
-      }
-    }
+  .omni-row-gradient {
+    background: linear-gradient(to right, #faf9ee 99%, #906d7d 0%);
   }
 }
