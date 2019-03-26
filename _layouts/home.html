@@ -1,29 +1,34 @@
 {% include header.html %}
 
 {% if site.layout == 'stacked' %}
-  <div class="text-center">
-    {% include masthead.html metadata=true %}
+  <div class="grid-container">
+    <div class="row">
+      <div class="grid-100">
+        {% include masthead.html metadata=true %}
 
-    <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-      {{ content }}
-    </div>
+        <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ content }}
+        </div>
 
-    <div class="my-6">
-      <!--{% include projects.html %}-->
-    </div>
+        <!--<div class="my-6">-->
+          <!--{% include projects.html %}-->
+        <!--</div>-->
 
-    {% if site.topics %}
-      <div class="my-6">
-        <!--{% include interests.html %}-->
+        <!--{% if site.topics %}-->
+          <!--<div class="my-6">-->
+            <!--{% include interests.html %}-->
+          <!--</div>-->
+        <!--{% endif %}-->
+
+        <!--{% unless posts_total == 0 %}-->
+          <!--<div class="my-6">-->
+            <!--{% include thoughts.html %}-->
+          <!--</div>-->
+        <!--{% endunless %}-->
       </div>
-    {% endif %}
-
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
+    </div>
   </div>
+
 {% endif %}
 
 {% include footer.html metadata=true %}
