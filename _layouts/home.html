@@ -1,11 +1,11 @@
 {% include header.html %}
 
 {% if site.layout == 'stacked' %}
-  <div class="grid-container">
-    <div class="row">
-      <div class="grid-100">
-        {% include masthead.html metadata=true %}
-
+    <div class="grid-container">
+      <div class="row">
+        <div class="grid-100 txt-align-center">
+          {% include masthead.html metadata=true %}
+        </div>
         <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ content }}
         </div>
