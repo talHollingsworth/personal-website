@@ -14,6 +14,13 @@
     text-shadow: unset;
     color: #352326;
 
+    &:active,
+    &:hover {
+      background-color: #eef2f7 !important;
+      color: unset !important;
+      text-shadow: unset !important;
+    }
+
     .octicon {
       margin-right: 6px;
       fill: #352326;
@@ -95,12 +102,6 @@ ul.list-style-none {
     padding-left: 0 !important;
     margin-left: 0 !important;
   }
-}
-
-.btn:active, .btn:hover {
-  background-color: #eef2f7;
-  color: unset;
-  text-shadow: unset;
 }
 
 .no-logo {

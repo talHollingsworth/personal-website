@@ -10,6 +10,10 @@
     padding: 2px 20px 2px 20px;
     text-shadow: unset;
     color: #352326; }
+    .omni-row-gradient .btn:active, .omni-row-gradient .btn:hover {
+      background-color: #eef2f7 !important;
+      color: unset !important;
+      text-shadow: unset !important; }
     .omni-row-gradient .btn .octicon {
       margin-right: 6px;
       fill: #352326; }
@@ -67,11 +71,6 @@ ul.list-style-none.txt-15 > li,
 ul.list-style-none li {
   padding-left: 0 !important;
   margin-left: 0 !important; }
-
-.btn:active, .btn:hover {
-  background-color: #eef2f7;
-  color: unset;
-  text-shadow: unset; }
 
 .no-logo {
   width: 80px;
