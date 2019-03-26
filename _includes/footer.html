@@ -3,14 +3,7 @@
                             <div class="grid-100 txt-align-center">
                                 {% assign metadata_styles = 'd-md-inline-block margin-right-10 margin-bottom-20' %}
 
-                                <img src="{{ user.avatar_url }}" class="circle" style="max-width: 150px;">
-                                <h1>{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
-                                <p class="lead-in">
-                                    {{ user.bio }}
-                                </p>
-                                {% else %}
                                 <h1>Contact Me</h1>
-                                {% endif %}
 
                                 {% if include.metadata %}
                                 <div class="txt-18 margin-bottom-20">
