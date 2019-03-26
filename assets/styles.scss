@@ -7,6 +7,10 @@
 .omni-row-gradient {
   background: linear-gradient(to right, #906d7d 0%, #faf9ee 99%);
 
+  &.multi-ling {
+    background: linear-gradient(to right, #faf9ee 0%,#906d7d 100%);
+  }
+
   .btn {
     background-color: unset;
     background-image: unset;
@@ -116,7 +120,8 @@ ul.list-style-none {
 
 @media screen and (min-width: 600px) {
 
-  .omni-row-gradient.multi-ling {
-    background: linear-gradient(to right, #faf9ee 0%,#906d7d 100%);
-  }
+}
+
+@media screen and (max-width: 1099px) {
+
 }

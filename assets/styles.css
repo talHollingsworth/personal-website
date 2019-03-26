@@ -4,6 +4,8 @@
 
 .omni-row-gradient {
   background: linear-gradient(to right, #906d7d 0%, #faf9ee 99%); }
+  .omni-row-gradient.multi-ling {
+    background: linear-gradient(to right, #faf9ee 0%, #906d7d 100%); }
   .omni-row-gradient .btn {
     background-color: unset;
     background-image: unset;
@@ -78,9 +80,5 @@ ul.list-style-none li {
   .no-logo h4 {
     top: 30px;
     position: relative; }
-
-@media screen and (min-width: 600px) {
-  .omni-row-gradient.multi-ling {
-    background: linear-gradient(to right, #faf9ee 0%, #906d7d 100%); } }
 
 /*# sourceMappingURL=styles.css.map */
