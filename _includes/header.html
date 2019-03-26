@@ -55,6 +55,16 @@
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
     <link href="{{ "/assets/fxcm-styles.css" | relative_url }}" rel="stylesheet" type="text/css">
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="path/to/lightcase.css">
+    <script type="text/javascript" src="path/to/lightcase.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('a[data-rel^=lightcase]').lightcase();
+        });
+    </script>
+
     <!--<script src="{{ "/assets/site.js" | relative_url }}" ></script>-->
   </head>
 
