@@ -1,8 +1,8 @@
-@import url('https://unpkg.com/primer/build/build.css');
-
-.github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
-}
+//@import url('https://unpkg.com/primer/build/build.css');
+//
+//.github-component {
+//  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+//}
 
 .omni-row-gradient {
   background: linear-gradient(to right, #906d7d 0%, #faf9ee 99%);
@@ -127,7 +127,7 @@ ul.list-style-none {
 @media screen and (min-width: 600px) {
   .omni-row-gradient {
     &.multi-ling {
-      background: linear-gradient(to right, #faf9ee 0%, #906d7d 100%);
+      background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%);
     }
   }
 }
