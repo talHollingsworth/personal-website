@@ -88,8 +88,11 @@ ul.list-style-none li {
     top: 30px;
     position: relative; }
 
-.ico-purple svg {
+.ico-purple-bright svg {
   fill: #6b4a74; }
+
+.ico-purple svg {
+  fill: #352326; }
 
 .ico-purple-light svg {
   fill: #906d7d; }
