@@ -91,6 +91,9 @@ ul.list-style-none li {
 .ico-purple svg {
   fill: #6b4a74; }
 
+.ico-yellow-light svg {
+  fill: #faf9ee; }
+
 @media only screen and (max-width: 600px) {
   .omni-row-gradient.multi-ling {
     background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%); }

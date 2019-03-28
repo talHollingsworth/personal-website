@@ -132,6 +132,12 @@ ul.list-style-none {
   }
 }
 
+.ico-yellow-light {
+  svg {
+    fill: #faf9ee;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .omni-row-gradient {
     &.multi-ling {
