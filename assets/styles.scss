@@ -138,6 +138,12 @@ ul.list-style-none {
       background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%);
     }
   }
+  .omni-btns{
+    a {
+      width: 100% !important;
+      margin: 0 auto 10px !important;
+    }
+  }
 }
 
 @media screen and (max-width: 1099px) {

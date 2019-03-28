@@ -93,6 +93,10 @@ ul.list-style-none li {
 
 @media screen and (min-width: 600px) {
   .omni-row-gradient.multi-ling {
-    background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%); } }
+    background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%); }
+
+  .omni-btns a {
+    width: 100% !important;
+    margin: 0 auto 10px !important; } }
 
 /*# sourceMappingURL=styles.css.map */
