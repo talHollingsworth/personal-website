@@ -7724,7 +7724,7 @@ ul.insight-sidebar-list > li a:hover {
   border-left-color: #0c51a3;
   color: #283545; }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
   ul.list-inline-pipes li {
     display: block;
     float: none; }
@@ -9241,7 +9241,7 @@ ul.insight-sidebar-list > li a:hover {
 
   .insights-hero.is-feature .cat-icon-wrapper, .insights-hero.is-single .cat-icon-wrapper {
     display: none; } }
-@media (min-width: 600px) and (max-width: 1099px) {
+@media screen and (min-width: 600px) and (max-width: 1099px) {
   .tablet-txt-10 {
     font-size: 10px !important;
     font-size: .625rem !important;
