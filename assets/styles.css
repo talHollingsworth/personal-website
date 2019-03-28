@@ -97,6 +97,9 @@ ul.list-style-none li {
 
   .omni-btns a {
     width: 100% !important;
-    margin: 0 auto 10px !important; } }
+    margin: 0 auto 10px !important; }
+
+  .skill-set > div {
+    min-height: unset; } }
 
 /*# sourceMappingURL=styles.css.map */
