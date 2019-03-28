@@ -7724,7 +7724,7 @@ ul.insight-sidebar-list > li a:hover {
   border-left-color: #0c51a3;
   color: #283545; }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
   ul.list-inline-pipes li {
     display: block;
     float: none; }
@@ -9241,7 +9241,7 @@ ul.insight-sidebar-list > li a:hover {
 
   .insights-hero.is-feature .cat-icon-wrapper, .insights-hero.is-single .cat-icon-wrapper {
     display: none; } }
-@media screen and (min-width: 600px) and (max-width: 1099px) {
+@media (min-width: 600px) and (max-width: 1099px) {
   .tablet-txt-10 {
     font-size: 10px !important;
     font-size: .625rem !important;
@@ -10462,7 +10462,7 @@ ul.insight-sidebar-list > li a:hover {
 
   .insights-hero.is-feature .cat-icon-wrapper .cat-title, .insights-hero.is-single .cat-icon-wrapper .cat-title {
     display: none; } }
-@media screen and (min-width: 1100px) {
+@media (min-width: 1100px) {
   .desktop-txt-auto-height {
     line-height: normal !important; }
 
@@ -11737,7 +11737,7 @@ ul.insight-sidebar-list > li a:hover {
 
   .hero-wrapper .hero-bg-wrapper img {
     display: none; } }
-@media screen and (max-width: 1099px) {
+@media (max-width: 1099px) {
   .cta-expand-toggle, .cta-heading {
     margin-bottom: 20px;
     padding-bottom: 30px; }
@@ -12317,7 +12317,7 @@ ul.insight-sidebar-list > li a:hover {
   article .pagination .link {
     border-left: none;
     margin-left: 0; } }
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .form.form-justified .form-cell {
     padding-left: 35%;
     padding-top: 10px; }

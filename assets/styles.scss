@@ -132,7 +132,7 @@ ul.list-style-none {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media ( min-width: 600px ) {
   .omni-row-gradient {
     &.multi-ling {
       background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%);
@@ -150,8 +150,4 @@ ul.list-style-none {
       min-height: unset;
     }
   }
-}
-
-@media screen and (max-width: 1099px) {
-
 }
