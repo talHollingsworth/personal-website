@@ -9,22 +9,22 @@
  */
 
 // Import settings
-@import 'assets/components/settings';
+@import 'components/settings';
 
 // Import icon font
-@import 'assets/components/fonts/font-lightcase';
+@import 'components/fonts/font-lightcase';
 
 // Import mixins
-@import 'assets/components/mixins/presets';
-@import 'assets/components/mixins/utilities';
+@import 'components/mixins/presets';
+@import 'components/mixins/utilities';
 
 // Import modules
-@import 'assets/components/modules/animations';
-@import 'assets/components/modules/case';
-@import 'assets/components/modules/content';
-@import 'assets/components/modules/error';
-@import 'assets/components/modules/global';
-@import 'assets/components/modules/info';
-@import 'assets/components/modules/loading';
-@import 'assets/components/modules/navigation';
-@import 'assets/components/modules/overlay';
+@import 'components/modules/animations';
+@import 'components/modules/case';
+@import 'components/modules/content';
+@import 'components/modules/error';
+@import 'components/modules/global';
+@import 'components/modules/info';
+@import 'components/modules/loading';
+@import 'components/modules/navigation';
+@import 'components/modules/overlay';
