@@ -105,6 +105,8 @@ h3 {
 }
 
 ul.list-style-none {
+  margin-left: 0 !important;
+
   & > li:before {
     content: none !important;
   }
@@ -113,6 +115,10 @@ ul.list-style-none {
   li {
     padding-left: 0 !important;
     margin-left: 0 !important;
+
+    i {
+      margin-right: 10px;
+    }
   }
 }
 

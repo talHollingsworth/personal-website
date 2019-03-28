@@ -74,12 +74,17 @@ h3 {
 .txt-caps {
   text-transform: uppercase !important; }
 
-ul.list-style-none > li:before {
-  content: none !important; }
-ul.list-style-none.txt-15 > li,
-ul.list-style-none li {
-  padding-left: 0 !important;
+ul.list-style-none {
   margin-left: 0 !important; }
+  ul.list-style-none > li:before {
+    content: none !important; }
+  ul.list-style-none.txt-15 > li,
+  ul.list-style-none li {
+    padding-left: 0 !important;
+    margin-left: 0 !important; }
+    ul.list-style-none.txt-15 > li i,
+    ul.list-style-none li i {
+      margin-right: 10px; }
 
 .no-logo {
   width: 135px;
